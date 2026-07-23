@@ -28,6 +28,19 @@ sudo systemctl enable httpd
 ```bash
 echo "<h1>Hello AWS</h1>" | sudo tee /var/www/html/index.html
 ```
+## Screenshots
+
+### EC2 Instance Running
+![EC2](screenshots/01-ec2-instance-running.png)
+
+### SSH Login
+![SSH](screenshots/02-ssh-login.png)
+
+### Apache Service Running
+![Apache](screenshots/03-httpd-service-running.png)
+
+### Website Output
+![Website](screenshots/04-hello-aws-webpage.png)
 
 ## Result
 
